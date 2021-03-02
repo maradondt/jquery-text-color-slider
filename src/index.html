@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="RU">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+    />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <title>Text color Slider</title>
+  </head>
+  <body>
+    <main class="container">
+      <div class="wrapper">
+        <form class="color-slider">
+          <fieldset class="color-slider__fieldset">
+            <legend>Select:</legend>
+            <input class="button ui-state-default" type="button" value="color" />
+            <input class="button ui-state-active" type="button" value="backgroundColor" />
+          </fieldset>
+          <div class="color-slider__wrapper">
+            <div class="color-slider__controls">
+              <input
+                type="range"
+                name="red"
+                id="red"
+                value="100"
+                min="0"
+                max="255"
+                step="1"
+              />
+              <input
+                type="range"
+                name="green"
+                id="green"
+                value="100"
+                min="0"
+                max="255"
+                step="1"
+              />
+              <input
+                type="range"
+                name="blue"
+                id="blue"
+                value="100"
+                min="0"
+                max="255"
+                step="1"
+              />
+            </div>
+            <!-- <div class="color-slider__text"> -->
+              <textarea class="color-slider__text" name="text" id="text" cols="30" rows="5">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quasi cumque tempore necessitatibus iste quae.</textarea>
+            <!-- </div> -->
+          </div>
+          
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
