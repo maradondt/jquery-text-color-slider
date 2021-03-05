@@ -1,5 +1,4 @@
-import 'jquery-ui/themes/base/base.css'
-// import 'jquery-ui/themes/base/theme.css'
+import 'jquery-ui-dist/jquery-ui';
 import init from './init';
 import './css/index.css'
 

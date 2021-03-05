@@ -1,6 +1,6 @@
 # Jquery Color Slider
 
-
+[Deploy link](https://jquery-text-color-slider.vercel.app/)
 
 ```sh
 $ npm install

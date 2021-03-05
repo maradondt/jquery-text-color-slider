@@ -1,5 +1,4 @@
 import $ from 'jquery';
-import 'jquery-ui-dist/jquery-ui';
 import initSlider from './initSlider';
 import setColorState from './setColorState';
 import watch from './view/index';
