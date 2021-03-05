@@ -59,5 +59,9 @@ html {
 #blue .ui-slider-handle { border-color: #729fcf; }
 
 .ui-slider {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.ui-slider:last-child {
+  margin-bottom: 0;
 }
