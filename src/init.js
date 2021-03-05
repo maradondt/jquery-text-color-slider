@@ -46,6 +46,10 @@ const init = () => {
       const { color } = e.target.dataset;
       setColorState(watchedState, ui, color);
     },
+    slide: (e, ui) => {
+      const { color } = e.target.dataset;
+      setColorState(watchedState, ui, color);
+    },
   });
 };
 
